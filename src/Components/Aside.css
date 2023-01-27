@@ -1,0 +1,126 @@
+aside{
+  margin-top: 50px;
+}
+.aside {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+aside h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  text-align: center;
+  color: #1f2e35;
+  margin-top: 50px;
+}
+.cards {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.card__h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 133.69%;
+  color: #ee4248;
+  margin-top: 10px;
+}
+.card__p {
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444e;
+}
+.btn {
+  margin-top: 10px;
+  width: 119px;
+  height: 42px;
+  left: 24px;
+  top: 314px;
+  color: aliceblue;
+  background: #ee4248;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+.carddd {
+  width: 450px;
+  border: none;
+  justify-content: center;
+}
+.carddd img {
+  width: 70px;
+}
+@media only screen and (max-width: 1216px) {
+  .aside{
+    justify-content: center;
+  }
+  .cards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  .carddd{
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 972px) {
+  .cards{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  .card{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .cards{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .card__h1{
+    font-size: 45px;
+  }
+  .card__p{
+    font-size: 28px;
+  }
+  .btn{
+    width: 200px;
+    height: 55px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .cards{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .card__h1{
+    font-size: 28px;
+  }
+  .card__p{
+    font-size: 1  8px;
+  }
+  .btn{
+    width: 119px;
+    height: 42px;
+  }
+}

@@ -1,0 +1,140 @@
+.head{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 80px;
+}
+.left__h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133.69%;
+    color: #1F2E35;
+}
+.left__h1 span{
+    color: 
+    #EE4248;
+}
+.left__p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #30444E;
+    
+}
+.btn{
+    width: 161px;
+    height: 53px;
+    left: 0px;
+    top: 372px;
+    color: #fff;
+    border:none;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+@media only screen and (max-width: 1400px) {
+    .left__h1{
+        font-size: 42px;
+    }
+    .left__p{
+        font-style: 14px;
+    }
+    .btn{
+        width: 131px;
+        height: 43px;
+    }
+}
+@media only screen and (max-width: 1216px) {
+    .head{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 80px;
+    }
+    .left__h1{
+        font-size: 32px;
+    }
+    .left__p{
+        font-style: 8px;
+    }
+    .btn{
+        width: 131px;
+        height: 43px;
+    }
+    .right img{
+        width: 410px;
+    }
+}
+@media only screen and (max-width: 995px) {
+    .head{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .left__h1{
+        font-size: 45px;
+    }
+    .left__p{
+        font-style: 15px;
+    }
+    .btn{
+        width: 161px;
+        height: 53px;
+    }
+    .right img{
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .head{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .left__h1{
+        font-size: 35px;
+    }
+    .left__p{
+        font-size: 12px;
+    }
+    .btn{
+        width: 161px;
+        height: 53px;
+    }
+    .right img{
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .head{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .left__h1{
+        font-size: 25px;
+    }
+    .left__p{
+        font-size: 10px;
+    }
+    .btn{
+        width: 131px;
+        height: 43px;
+    }
+    .right img{
+        margin-top: 30px;
+        width: 100%;
+    }
+}

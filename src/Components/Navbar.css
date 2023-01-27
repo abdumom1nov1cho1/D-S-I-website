@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    margin-left: 50px;
+}
+ul li a{
+    font-size: 17px;
+}
+.icons{
+    margin-left: 160px;
+    display: flex;
+    gap: 20px;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    body{
+        justify-content: center;
+    }
+    ul li{
+        margin-left: 20px;
+    }
+    ul li a{
+        font-size: 15px;
+    }
+    .icons{
+        margin-left: 100px;
+        display: flex;
+        gap: 20px;
+    }
+  }
